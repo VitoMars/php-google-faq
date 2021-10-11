@@ -95,7 +95,7 @@ $faqs = [
 <body>
    <header>
       <div class="logo">
-         <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="logo Google"> 
+         <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="logo Google">
          <span class="logo-text">Privacy e termini</span>
       </div>
       <div class="nav-menu">
@@ -103,7 +103,7 @@ $faqs = [
             <?php
             foreach ($navLinks as $link) {
                if ($link["status"] === "active") {
-                  echo "<li><a href=" . $link["url"] . " class="active">" . $link["title"] . "</a></li>";
+                  echo "<li><a href=" . $link["url"] . " class='active'>" . $link["title"] . "</a></li>";
                } else {
                   echo "<li><a href=" . $link["url"] . ">" . $link["title"] . "</a></li>";
                }
